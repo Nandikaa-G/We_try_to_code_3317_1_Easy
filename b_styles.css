@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.bottom-half {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: xx-small;
+    color: rgba(255, 255, 255, 0.8);
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+    margin-right: 100px;
+}
+
+h2 {
+    padding-top: 20px;
+    padding-left: 120px;
+}
+
+img {
+    padding-top: 70px;
+    max-width: 400px;
+}
