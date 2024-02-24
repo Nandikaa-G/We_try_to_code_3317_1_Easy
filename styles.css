@@ -1,1 +1,29 @@
-s
+ul {
+    display: inline;;
+    list-style-type: none;
+    margin: 20px;
+    padding: 5px;
+    overflow: hidden;
+    
+  }
+
+  
+  li a {
+    float: left;
+    font-size:larger;
+    margin: 10px 10px;
+    padding: 10px 20px;
+    color: black;
+    border: 2px solid black;
+    border-radius: 30px;
+    text-decoration: none;
+  }
+  
+.logo{
+    float: right;
+}
+
+
+#navbar{
+    display: block;
+}
