@@ -1,0 +1,63 @@
+
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 20px;
+    padding: 5px;
+    overflow: hidden;
+    
+  }
+
+#imageslide{
+    background-image: url('./concert.jpg');
+}
+  li a {
+    font-family: 'Inter';
+    float: left;
+    font-size:larger;
+    margin: 10px 10px;
+    padding: 10px 20px;
+    color: black;
+    border-radius: 30px;
+    text-decoration: none;
+  }
+.main{
+    padding: 20px;
+    margin-top: 30px;
+    height:1500px;
+}
+
+
+.ukbutton, .francebutton, .fmbutton, .swubutton
+{background-color: #E4E4E4;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    display: inline-block;
+    padding:20px 200px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Inter';
+    font-size: 20px;
+    margin-top: 10px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 40px;
+}
+
+.ukbutton:hover {
+    background-color: #218DFF;
+}
+
+.francebutton:hover {
+    background-color: #334270;
+}
+
+.fmbutton:hover {
+    background-color:#FF3854 ;
+}
+
+.swubutton:hover {
+    background-color: #7072FF;
+
+}
