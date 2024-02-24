@@ -7,20 +7,33 @@ body {
 .bottom-half {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: xx-small;
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(255, 255, 255, 0.5);
     padding: 50px;
     display: flex;
     align-items: center;
-    margin-left: 200px;
+    margin-left: 100px;
     margin-right: 100px;
 }
 
 h2 {
-    padding-top: 20px;
     padding-left: 120px;
 }
 
 img {
-    padding-top: 70px;
-    max-width: 400px;
+    margin-left: 40px;
+    padding-top: 80px;
+    max-width: 600px;
 }
+
+#border{
+    border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+#bnext{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: small;
+    padding-right: 280px;
+    color: white;
+    text-align: right;
+}
+
