@@ -1,5 +1,10 @@
+body{
+    font-family: 'Inter';
+    margin:0.33%;
+}
+
 ul {
-    display: inline;;
+    display: flex;
     list-style-type: none;
     margin: 20px;
     padding: 5px;
@@ -20,10 +25,34 @@ ul {
   }
   
 .logo{
+    display: flex;
     float: right;
 }
 
 
 #navbar{
     display: block;
+}
+
+table{
+    width:100%;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    font-size: medium;
+    color: black;
+}
+
+tr a{
+    text-decoration: underline;
+    color: black;
+}
+
+#table ul{
+    width:100%;
+    padding: 20px;
+    margin: 20px;
+    float: left;
+    display: block;
+    text-align: left;
 }
